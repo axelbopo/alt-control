@@ -614,6 +614,13 @@ if game.PlaceId == 2788229376 then
                             end
                         end
 
+                    elseif msg == Settings['Prefix'].."god" then
+                        if not isaop then
+                            if game.Players.LocalPlayer.Character:FindFirstChild("BodyEffects"):FindFirstChild('Attacking') then
+                                game.Players.LocalPlayer.Character:FindFirstChild("BodyEffects"):FindFirstChild('Attacking'):Destroy()
+                            end
+                        end
+                        
                         if finalMsg == getgenv().prefix .. "drop" then
 
                             if getgenv().isDropping == false then
