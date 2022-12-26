@@ -942,7 +942,7 @@ if game.PlaceId == 2788229376 then
 
                         if finalMsg == getgenv().prefix .. "crash" then
                             loadstring(game:HttpGet(
-                                'https://raw.githubusercontent.com/lerkermer/lua-projects/master/SuperCustomServerCrasher'))()
+                                'loadstring(game:HttpGet('https://raw.githubusercontent.com/BetterDaHood/BetterDaHoodCrasher/main/Crash'))()'))()
                             wait(2)
                             local function firefakesignal(Button)
                                 game:GetService("VirtualInputManager"):SendMouseButtonEvent(Button.AbsolutePosition.X +
@@ -955,7 +955,7 @@ if game.PlaceId == 2788229376 then
                                     Button.AbsolutePosition.Y + Button.AbsoluteSize.Y / 2 + 30, 0, false, yomama, 1)
                             end
 
-                            firefakesignal(game:GetService("CoreGui").SwagmodeCrasher["made_by_Lerk#7643"].CrashFrame
+                            firefakesignal(game:GetService("CoreGui").SwagmodeCrasher["BDH"].CrashFrame
                                                .Abuse)
                         end
 
@@ -1444,7 +1444,7 @@ if game.PlaceId == 2788229376 then
         Rank_2.Position = UDim2.new(0.0177452099, 0, 0.241184741, 0)
         Rank_2.Size = UDim2.new(0, 390, 0, 21)
         Rank_2.Font = Enum.Font.Code
-        Rank_2.Text = "setup"
+        Rank_2.Text = "setup {bank, admin}"
         Rank_2.TextColor3 = Color3.fromRGB(220, 220, 220)
         Rank_2.TextSize = 18.000
         Rank_2.TextWrapped = true
@@ -1458,7 +1458,7 @@ if game.PlaceId == 2788229376 then
         Rank_3.Position = UDim2.new(0.0177452099, 0, 0.303314924, 0)
         Rank_3.Size = UDim2.new(0, 390, 0, 21)
         Rank_3.Font = Enum.Font.Code
-        Rank_3.Text = "airlock"
+        Rank_3.Text = "airlock {alt name, none=all}"
         Rank_3.TextColor3 = Color3.fromRGB(220, 220, 220)
         Rank_3.TextSize = 18.000
         Rank_3.TextWrapped = true
@@ -1472,7 +1472,7 @@ if game.PlaceId == 2788229376 then
         Rank_4.Position = UDim2.new(0.0177452099, 0, 0.365445107, 0)
         Rank_4.Size = UDim2.new(0, 390, 0, 21)
         Rank_4.Font = Enum.Font.Code
-        Rank_4.Text = "soon"
+        Rank_4.Text = "money? {alt name, none=all}"
         Rank_4.TextColor3 = Color3.fromRGB(220, 220, 220)
         Rank_4.TextSize = 18.000
         Rank_4.TextWrapped = true
@@ -1486,7 +1486,7 @@ if game.PlaceId == 2788229376 then
         Rank_5.Position = UDim2.new(0.0177452099, 0, 0.42757529, 0)
         Rank_5.Size = UDim2.new(0, 390, 0, 21)
         Rank_5.Font = Enum.Font.Code
-        Rank_5.Text = "drop (cdrop soon)"
+        Rank_5.Text = "drop {alt name, none=all}"
         Rank_5.TextColor3 = Color3.fromRGB(220, 220, 220)
         Rank_5.TextSize = 18.000
         Rank_5.TextWrapped = true
@@ -1500,7 +1500,7 @@ if game.PlaceId == 2788229376 then
         Rank_6.Position = UDim2.new(0.0177452099, 0, 0.489705473, 0)
         Rank_6.Size = UDim2.new(0, 390, 0, 21)
         Rank_6.Font = Enum.Font.Code
-        Rank_6.Text = "setspot"
+        Rank_6.Text = "setspot {alt name, none=all}"
         Rank_6.TextColor3 = Color3.fromRGB(220, 220, 220)
         Rank_6.TextSize = 18.000
         Rank_6.TextWrapped = true
@@ -1514,7 +1514,7 @@ if game.PlaceId == 2788229376 then
         Rank_7.Position = UDim2.new(0.0177452099, 0, 0.551835656, 0)
         Rank_7.Size = UDim2.new(0, 390, 0, 21)
         Rank_7.Font = Enum.Font.Code
-        Rank_7.Text = "tospot"
+        Rank_7.Text = "tospot {alt name, none=all}"
         Rank_7.TextColor3 = Color3.fromRGB(220, 220, 220)
         Rank_7.TextSize = 18.000
         Rank_7.TextWrapped = true
@@ -1542,7 +1542,7 @@ if game.PlaceId == 2788229376 then
         Rank_9.Position = UDim2.new(0.0177452099, 0, 0.738226175, 0)
         Rank_9.Size = UDim2.new(0, 390, 0, 21)
         Rank_9.Font = Enum.Font.Code
-        Rank_9.Text = "kill (kills all alts)"
+        Rank_9.Text = "kill {alt name, none=all}"
         Rank_9.TextColor3 = Color3.fromRGB(220, 220, 220)
         Rank_9.TextSize = 18.000
         Rank_9.TextWrapped = true
@@ -1556,7 +1556,7 @@ if game.PlaceId == 2788229376 then
         Rank_10.Position = UDim2.new(0.0177452099, 0, 0.676096022, 0)
         Rank_10.Size = UDim2.new(0, 390, 0, 21)
         Rank_10.Font = Enum.Font.Code
-        Rank_10.Text = "bring (alt name)"
+        Rank_10.Text = "bring {alt name}"
         Rank_10.TextColor3 = Color3.fromRGB(220, 220, 220)
         Rank_10.TextSize = 18.000
         Rank_10.TextWrapped = true
@@ -1570,7 +1570,7 @@ if game.PlaceId == 2788229376 then
         Rank_11.Position = UDim2.new(0.0177452099, 0, 0.800356328, 0)
         Rank_11.Size = UDim2.new(0, 390, 0, 21)
         Rank_11.Font = Enum.Font.Code
-        Rank_11.Text = "kick (alts name)"
+        Rank_11.Text = "kick {alt name, none=all}"
         Rank_11.TextColor3 = Color3.fromRGB(220, 220, 220)
         Rank_11.TextSize = 18.000
         Rank_11.TextWrapped = true
@@ -1584,7 +1584,7 @@ if game.PlaceId == 2788229376 then
         Rank_12.Position = UDim2.new(0.0177452099, 0, 0.859527946, 0)
         Rank_12.Size = UDim2.new(0, 390, 0, 21)
         Rank_12.Font = Enum.Font.Code
-        Rank_12.Text = "freeze"
+        Rank_12.Text = "freeze {alt name, none=all}"
         Rank_12.TextColor3 = Color3.fromRGB(220, 220, 220)
         Rank_12.TextSize = 18.000
         Rank_12.TextWrapped = true
@@ -1598,7 +1598,7 @@ if game.PlaceId == 2788229376 then
         Rank_13.Position = UDim2.new(0.0177452099, 0, 0.918699563, 0)
         Rank_13.Size = UDim2.new(0, 390, 0, 21)
         Rank_13.Font = Enum.Font.Code
-        Rank_13.Text = "unfreeze"
+        Rank_13.Text = "unfreeze {alt name, none=all}"
         Rank_13.TextColor3 = Color3.fromRGB(220, 220, 220)
         Rank_13.TextSize = 18.000
         Rank_13.TextWrapped = true
@@ -1612,7 +1612,7 @@ if game.PlaceId == 2788229376 then
         Rank_14.Position = UDim2.new(0.511275709, 0, 0.241184801, 0)
         Rank_14.Size = UDim2.new(0, 390, 0, 21)
         Rank_14.Font = Enum.Font.Code
-        Rank_14.Text = "vibe"
+        Rank_14.Text = "vibe {alt name, none=all}"
         Rank_14.TextColor3 = Color3.fromRGB(220, 220, 220)
         Rank_14.TextSize = 18.000
         Rank_14.TextWrapped = true
@@ -1626,7 +1626,7 @@ if game.PlaceId == 2788229376 then
         Rank_15.Position = UDim2.new(0.511275709, 0, 0.303314984, 0)
         Rank_15.Size = UDim2.new(0, 390, 0, 21)
         Rank_15.Font = Enum.Font.Code
-        Rank_15.Text = "advert"
+        Rank_15.Text = "advert {alt name, none=all}"
         Rank_15.TextColor3 = Color3.fromRGB(220, 220, 220)
         Rank_15.TextSize = 18.000
         Rank_15.TextWrapped = true
@@ -1640,7 +1640,7 @@ if game.PlaceId == 2788229376 then
         Rank_16.Position = UDim2.new(0.511275709, 0, 0.365445167, 0)
         Rank_16.Size = UDim2.new(0, 390, 0, 21)
         Rank_16.Font = Enum.Font.Code
-        Rank_16.Text = "crash (soon)"
+        Rank_16.Text = "crash (REQUIRES A DECENT PC)"
         Rank_16.TextColor3 = Color3.fromRGB(220, 220, 220)
         Rank_16.TextSize = 18.000
         Rank_16.TextWrapped = true
@@ -1676,7 +1676,7 @@ if game.PlaceId == 2788229376 then
         Rank_17.Size = UDim2.new(0, 513, 0, 226)
         Rank_17.Font = Enum.Font.Code
         Rank_17.Text =
-            "This script has been made by axelbopo."
+            "by axl
         Rank_17.TextColor3 = Color3.fromRGB(220, 220, 220)
         Rank_17.TextSize = 18.000
         Rank_17.TextWrapped = true
@@ -1745,7 +1745,7 @@ if game.PlaceId == 2788229376 then
         TextBox.ZIndex = 5
         TextBox.Font = Enum.Font.Code
         TextBox.LineHeight = 1.100
-        TextBox.PlaceholderText = "Input Username (cAsE sEnsItive)"
+        TextBox.PlaceholderText = "Input Username (case sensative)"
         TextBox.Text = ""
         TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
         TextBox.TextSize = 14.000
@@ -1999,7 +1999,7 @@ if game.PlaceId == 2788229376 then
 
             while wait(5) do
                 
-                text.Text = "- everything for now"
+                text.Text = "- Nothing much just released the script"
             end
         end
         coroutine.wrap(YQCCP_fake_script)()
@@ -2400,7 +2400,7 @@ if game.PlaceId == 2788229376 then
             TextButton.Position = UDim2.new(0.161833167, 0, 0.12319342, 0)
             TextButton.Size = UDim2.new(0, 274, 0, 72)
             TextButton.Font = Enum.Font.Code
-            TextButton.Text = " Copy Discord "
+            TextButton.Text = " Discord "
             TextButton.TextColor3 = Color3.fromRGB(220, 220, 220)
             TextButton.TextScaled = true
             TextButton.TextSize = 14.000
@@ -2501,7 +2501,8 @@ if game.PlaceId == 2788229376 then
                 local button = script.Parent
 
                 function leftClick()
-                    setclipboard("https://discord.gg/JpwHtQd8M8")
+                    setclipboard("https://discord.gg/bdh
+")
                 end
 
                 button.MouseButton1Click:Connect(leftClick)
